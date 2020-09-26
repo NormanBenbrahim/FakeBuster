@@ -5,3 +5,4 @@ __pycache__
 *.pptx
 .vscode
 tmp_tensorflow
+.DS_STORE
