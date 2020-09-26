@@ -101,3 +101,14 @@ The file structure is the following
   * [Fake News Identification - Stanford CS229](http://cs229.stanford.edu/proj2017/final-reports/5244348.pdf)
   * [B.S. Detector](https://github.com/bs-detector/bs-detector)
   * [Datasets from Kaggle](https://www.kaggle.com/c/fake-news/data)
+
+# Norman's Contribution
+
+Created a Flask API and made it launchable to Google Cloud. I use the `neural-net-keras.py` model. The model is containerized and launched as an API on Cloud Run. It uses Firestore for authentication and databasing
+
+## Setup
+
+`cd` into the `api` folder and run the file `setup-local.sh` to follow the instructions to setup your local instance
+
+
+
